@@ -1,22 +1,6 @@
 ### Capturing Delayed Feedback in Conversion Rate Prediction via Elapsed-Time Sampling
 
-This is the code and model checkpoints to reproduce the results on the public dataset.
-
-The criteo dataset is available at https://drive.google.com/file/d/1x4KktfZtls9QjNdFYKCjTpfjM4tG2PcK/view?usp=sharing
-
-For detailed information, please refer to the comments.
-
-Please run 
-```
-python main.py --help
-```
-to see all the arguments.
-
-I uploaded a run.sh file as a reference to run the code, however, the pathes should be modified accordingly.
-
-A preprint version of this paper is available at https://arxiv.org/abs/2012.03245
-
-Please cite this paper if you find our code is helpful:
+Please cite this paper if you used any content of this repo in your work:
 
 ```tex
 @article{DBLP:journals/corr/abs-2012-03245,
@@ -36,5 +20,21 @@ Please cite this paper if you find our code is helpful:
   eprint    = {2012.03245},
 }
 ```
+
+This is the code and model checkpoints to reproduce the results on the public dataset.
+
+The criteo dataset is available at https://drive.google.com/file/d/1x4KktfZtls9QjNdFYKCjTpfjM4tG2PcK/view?usp=sharing
+
+For detailed information, please refer to the comments.
+
+Please run 
+```
+python main.py --help
+```
+to see all the arguments.
+
+I uploaded a run.sh file as a reference to run the code, however, the pathes should be modified accordingly.
+
+A preprint version of this paper is available at https://arxiv.org/abs/2012.03245
 
 **Our paper has been accepted by AAAI 2021 !**
