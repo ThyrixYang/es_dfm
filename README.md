@@ -3,7 +3,7 @@
 Please cite this paper if you used any content of this repo in your work:
 
 ```tex
-@article{DBLP:journals/corr/abs-2012-03245,
+@inproceedings{DBLP:conf/aaai/YangLHZZZT21,
   author    = {Jia{-}Qi Yang and
                Xiang Li and
                Shuguang Han and
@@ -13,11 +13,15 @@ Please cite this paper if you used any content of this repo in your work:
                Bin Tong},
   title     = {Capturing Delayed Feedback in Conversion Rate Prediction via Elapsed-Time
                Sampling},
-  journal   = {CoRR},
-  volume    = {abs/2012.03245},
-  year      = {2020},
-  url       = {https://arxiv.org/abs/2012.03245},
-  eprint    = {2012.03245},
+  booktitle = {Thirty-Fifth {AAAI} Conference on Artificial Intelligence, {AAAI}
+               2021, Thirty-Third Conference on Innovative Applications of Artificial
+               Intelligence, {IAAI} 2021, The Eleventh Symposium on Educational Advances
+               in Artificial Intelligence, {EAAI} 2021, Virtual Event, February 2-9,
+               2021},
+  pages     = {4582--4589},
+  publisher = {{AAAI} Press},
+  year      = {2021},
+  url       = {https://ojs.aaai.org/index.php/AAAI/article/view/16587},
 }
 ```
 
