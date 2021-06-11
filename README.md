@@ -40,5 +40,3 @@ to see all the arguments.
 I uploaded a run.sh file as a reference to run the code, however, the pathes should be modified accordingly.
 
 A preprint version of this paper is available at https://arxiv.org/abs/2012.03245
-
-**Our paper has been accepted by AAAI 2021 !**
