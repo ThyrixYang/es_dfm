@@ -14,9 +14,6 @@ Please cite this paper if you used any content of this repo in your work:
   title     = {Capturing Delayed Feedback in Conversion Rate Prediction via Elapsed-Time
                Sampling},
   booktitle = {Thirty-Fifth {AAAI} Conference on Artificial Intelligence, {AAAI}
-               2021, Thirty-Third Conference on Innovative Applications of Artificial
-               Intelligence, {IAAI} 2021, The Eleventh Symposium on Educational Advances
-               in Artificial Intelligence, {EAAI} 2021, Virtual Event, February 2-9,
                2021},
   pages     = {4582--4589},
   publisher = {{AAAI} Press},
