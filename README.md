@@ -26,7 +26,7 @@ Please cite this paper if you used any content of this repo in your work:
 
 This is the code and model checkpoints to reproduce the results on the public dataset.
 
-We also implement Delayed feedback model(DFM, Chapelle 2014), Feedback Shift Importance Weighting (FSIW) (Yasui et al. 2020), Fake Negative Weighted (FNW) (Ktena et al. 2019), Fake Negative calibration(FNC) (Ktena et al. 2019) for comparison.
+We also implement Delayed feedback model(**DFM**, Chapelle 2014), Feedback Shift Importance Weighting (**FSIW**) (Yasui et al. 2020), Fake Negative Weighted (**FNW**) (Ktena et al. 2019), Fake Negative calibration(**FNC**) (Ktena et al. 2019) for comparison.
 
 The criteo dataset is available at https://drive.google.com/file/d/1x4KktfZtls9QjNdFYKCjTpfjM4tG2PcK/view?usp=sharing
 
