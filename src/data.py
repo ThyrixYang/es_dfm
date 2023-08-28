@@ -425,7 +425,7 @@ def get_criteo_dataset(params):
             "x": test_data.x,
             "click_ts": test_data.click_ts,
             "pay_ts": test_data.pay_ts,
-            "sample_ts": train_data.sample_ts,
+            "sample_ts": test_data.sample_ts,
             "labels": test_data.labels,
         }
     }
