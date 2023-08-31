@@ -337,9 +337,9 @@ def get_criteo_dataset_stream(params):
                                     "labels": test_hour.labels})
         else:
             raise NotImplementedError("{} data does not exist".format(name))
-    if params["data_cache_path"] != "None":
-        with open(cache_path, "wb") as f:
-            pickle.dump({"train": train_stream, "test": test_stream}, f)
+        if params["data_cache_path"] != "None":
+            with open(cache_path, "wb") as f:
+                pickle.dump({"train": train_stream, "test": test_stream}, f)
     return train_stream, test_stream
 
 
@@ -410,9 +410,9 @@ def get_criteo_dataset(params):
                 cd=cd*SECONDS_A_DAY, T=60*SECONDS_A_DAY)
         else:
             raise NotImplementedError("{} dataset does not exist".format(name))
-    if params["data_cache_path"] != "None":
-        with open(cache_path, "wb") as f:
-            pickle.dump({"train": train_data, "test": test_data}, f)
+        if params["data_cache_path"] != "None":
+            with open(cache_path, "wb") as f:
+                pickle.dump({"train": train_data, "test": test_data}, f)
     return {
         "train": {
             "x": train_data.x,
